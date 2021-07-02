@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Курс валют</title>
 </head>
 <body>
   <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://ru.tradingview.com/symbols/USDRUB/?exchange=FOREXCOM" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
   {
   "symbol": "FOREXCOM:USDRUB",
@@ -21,11 +21,9 @@
 }
   </script>
 </div>
-<!-- TradingView Widget END -->
-<!-- TradingView Widget BEGIN -->
+<!-- SRPT Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://ru.tradingview.com/symbols/NASDAQ-SRPT/" rel="noopener" target="_blank"><span class="blue-text">Котировки</span></a> от Сашки</div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
   {
   "symbol": "NASDAQ:SRPT",
@@ -36,6 +34,24 @@
 }
   </script>
 </div>
+<!-- SRPT Widget END -->
+<!-- ARCT Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+  {
+  "symbol": "NASDAQ:ARCT",
+  "width": "100%",
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "ru"
+}
+  </script>
+</div>
+<!-- ARCT Widget END -->
 <!-- TradingView Widget END -->
+
+<div class="tradingview-widget-copyright"><a href="https://ru.tradingview.com/symbols/NASDAQ-SRPT/" rel="noopener" target="_blank"><span class="blue-text">Котировки</span></a> от Сашки</div>
+
 </body>
 </html>
